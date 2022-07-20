@@ -9,9 +9,7 @@
 .container{
     display: flex;
     justify-content: space-evenly;
-    width: 75%;
-    margin-top: 50px;
-    margin-left:200px ;
+    margin: 80px 200px;
     background-color: #181515;
     border-radius: 20px;
 }
