@@ -168,7 +168,7 @@
       .container{
           display: block;
           flex-direction: column;
-          width: 100%;
+          width: 95%;
           margin: auto;
       }
       .banner img{
