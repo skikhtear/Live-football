@@ -47,6 +47,43 @@
     height: 600px;
 }
 
+/* animation section */
+@keyframes sliding {
+  0% {
+      right: 700px;
+      top: 600px;
+  }
+
+  50% {
+      top: 100px;
+  }
+
+  100% {
+      right: 1200px;
+      top: 150px;
+  }
+}
+
+.container:hover .ball {
+  display: block;
+  position: absolute;
+  width: 80px;
+  margin: 0%;
+  animation: sliding 3s ease-in-out 0.1s infinite alternate;
+}
+
+.ball-size {
+  width: 5px;
+  height: 5px;
+  margin-bottom:50px ;
+}
+
+.ball-size img {
+  width: 70px;
+  height: 70px;
+  display: none;
+}
+
 
 /*------------
   blog section
@@ -179,6 +216,9 @@
         width: 400px;
         height: 400px;
     }
+    .container:hover .ball {
+      display: none;
+    }
       .container-2{
          display: block;
          flex-direction: column;
@@ -211,6 +251,9 @@
     .banner img{
         width: 400px;
         height: 400px;
+    }
+    .container:hover .ball {
+      display: none;
     }
       .container-2{
          display: block;
