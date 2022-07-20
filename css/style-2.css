@@ -186,7 +186,7 @@
         }
         .cards{
             grid-template-columns: repeat(1, 1fr);
-            width: 75%;
+            
         }
         .container-3{
           width: 100%;
